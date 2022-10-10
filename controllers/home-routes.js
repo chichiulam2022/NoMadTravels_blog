@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Post } = require("../models");
+const { Post, User } = require("../models");
 // const withAuth = require("../utils/auth");
 
 
@@ -49,7 +49,7 @@ router.get("/newblog", (req, res) => {
 
 //about us 
 router.get("/about_us", (req, res) => {
-  res.render("aboutus", { loggedIn: req.session.loggedIn })
+  res.render("about-us", { loggedIn: req.session.loggedIn })
 })
 
 
