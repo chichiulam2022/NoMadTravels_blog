@@ -49,7 +49,7 @@ router.get("/newblog", (req, res) => {
 
 //about us 
 router.get("/about_us", (req, res) => {
-  res.render("about_us", { loggedIn: req.session.loggedIn })
+  res.render("aboutus", { loggedIn: req.session.loggedIn })
 })
 
 
