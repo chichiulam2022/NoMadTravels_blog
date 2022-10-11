@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { Post, User } = require("../models");
-// const withAuth = require("../utils/auth");
+const withAuth = require("../utils/auth");
 
 //intro page
 router.get("/", (req, res) => {
@@ -26,9 +26,6 @@ router.get("/signup", (req, res) => {
 router.get("/homepage", async (req, res) => {
   try {
     const dbPostData = await Post.findAll({
-      attributes: [
-        'title', 'content', 'image', 'user_id', 'createdAt'
-      ],
       include: [
         {
           model: User,
