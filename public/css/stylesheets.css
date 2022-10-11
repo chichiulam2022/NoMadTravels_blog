@@ -320,6 +320,23 @@ section .img-container {
     font-weight: lighter;
 }
 
+
+#banner {
+    background-color: #970032;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
 /* for blog cards (homepage) */
 .card {
     text-decoration: none;
@@ -360,6 +377,10 @@ section .img-container {
 
 .fa-book-open-reader {
     color: var(--orange-brand-color);
+}
+
+#date {
+    font-style: oblique;
 }
 
 /* for about us page */
@@ -462,6 +483,7 @@ section .img-container {
 .blog-container {
     border-radius: 25px;
     background: rgba(35, 15, 7, 0.7);
+    width: 60%;
 }
 
 textarea {
