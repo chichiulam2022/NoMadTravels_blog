@@ -544,6 +544,10 @@ textarea {
     line-height: 1.8;
 }
 
+.row-md-7 {
+    height: 550px;
+    overflow-y: scroll;
+}
 
 
 .blog-detail-container {
