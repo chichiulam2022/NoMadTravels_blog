@@ -6,6 +6,19 @@ const upload = multer({ storage })
 const { Post, Comment } = require('../models');
 
 
+//get all blog posts (/blog)
+router.get('/', async (req, res) => {
+    try {
+        const data = await Post.findAll({})
+        res.send(data)
+    }
+    catch (err) {
+        console.log(err);
+        res.status(500).json(err);
+    }
+})
+
+
 //render the blog form (/blog/newblog)
 router.get("/newblog", (req, res) => {
     res.render("newblog", { loggedIn: req.session.loggedIn })
@@ -24,9 +37,7 @@ router.post('/newblog', authenticate, upload.single('image'), (req, res) => {
     }
 })
 
-
-
-// show individual blog post
+// show individual blog post (/blog/:id)
 router.get("/:id", authenticate, async (req, res) => {
     try {
         const dbPostData = await Post.findByPk(req.params.id, {

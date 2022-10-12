@@ -364,7 +364,6 @@ section .img-container {
     min-height: 300px;
 }
 
-
 /* for blog cards (homepage) */
 .card {
     text-decoration: none;
@@ -519,27 +518,45 @@ textarea {
 }
 
 
+/* for blog detail */
 
-/* for blog detail from Mustapha */
-
-
-/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-.row.content {
-    height: 1500px
+#blog-detail {
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(23, 35, 71);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* Set gray background color and 100% height */
-.sidenav {
-    background-color: #f1f1f1;
-    height: 100%;
+#posted-by {
+    font-style: italic;
+    font-weight: 900;
+    color: aqua;
 }
 
-/* Set black background color, white text and some padding */
-footer {
-    background-color: #555;
-    color: white;
-    padding: 15px;
+#blog-content-title {
+    text-decoration: underline;
+    color: #e36833;
+    font-weight: 900;
 }
+
+#blog-content-text {
+    line-height: 1.8;
+}
+
+
+
+.blog-detail-container {
+    border-radius: 25px;
+    background: rgba(36, 28, 26, 0.7);
+    width: 80%;
+}
+
+/* .blog-content-box {
+    border: 2px solid red;
+} */
+
+
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
