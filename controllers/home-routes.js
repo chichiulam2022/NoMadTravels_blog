@@ -43,6 +43,7 @@ router.get("/homepage", async (req, res) => {
   }
 })
 
+
 //about us 
 router.get("/about_us", (req, res) => {
   res.render("about-us", { loggedIn: req.session.loggedIn })
