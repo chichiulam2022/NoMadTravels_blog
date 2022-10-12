@@ -26,12 +26,12 @@ router.post('/newblog', authenticate, upload.single('image'), (req, res) => {
             image: req.file.path,
             user_id: req.session.user_id
         })
-        return res.redirect("/homepage")
-            .then(dbPostData => res.json(dbPostData))
-            .catch(err => {
-                console.log(err)
-                res.status(400).json(err)
-            })
+        res.redirect("/homepage")
+        // .then(dbPostData => res.json(dbPostData))
+        // .catch(err => {
+        //     console.log(err)
+        //     res.status(400).json(err)
+        // })
     }
     // console.log(newPost)
     // res.send("success")
