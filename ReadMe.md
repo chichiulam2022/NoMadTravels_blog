@@ -44,19 +44,19 @@ Simply click the deployed Heroku link (mentioned under Links section) to access 
 Helpful images/gifs/video are posted below:</br>
 </br>
 </br>
-Application front page preview:
+**App Preview:**
 </br>
 ![AppPreview](./public/ReadMe/app_preview.png)
 </br>
 </br>
 
-The About Us page cards individually rotate to reveal the team members:
+**About Us Page:**
 </br>
 <img width="1425" alt="Screen Shot 2022-10-12 at 12 04 33 AM" src="https://user-images.githubusercontent.com/108379616/195248318-2c1d294f-4cc9-4867-b21b-23a89bedfd0a.png">
 </br>
 </br>
 
-Signup & login pages:
+**Signup & Login Pages:**
 </br>
 ![SignUp](./public/ReadMe/signup.png)
 </br>
@@ -70,8 +70,8 @@ Deployed Heroku URL: https://nomadtravelblog.herokuapp.com/
 
 ###  Credits
 
-- [Mustapha TAYLOR](https://github.com/mtaylo1)
 - [Chi Chiu LAM](https://github.com/chichiulam2022)
+- [Mustapha TAYLOR](https://github.com/mtaylo1)
 - [Wah Kong LOO](https://github.com/andyloo416)
 - [Aashay NAGAR](https://github.com/A-N26)
 
