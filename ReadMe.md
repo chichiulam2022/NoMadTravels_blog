@@ -45,7 +45,7 @@ Simply click the deployed Heroku link (mentioned under Links section) to access 
 Helpful images/gifs/video are posted below:</br>
 </br>
 Application front page preview:
-</br>
+</br> 
 ![AppPreview](./public/images/readme/app_preview.png)
 </br>
 </br>
