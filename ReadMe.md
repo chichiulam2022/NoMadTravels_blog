@@ -44,10 +44,6 @@ Html, CSS, Javascript, Node.js, Bootstrap, JQuery, Greensock, MySQL, Sequelize, 
 Simply click the deployed Heroku link (mentioned under Links section) to access the application. Thereafter, create login credentials. Once done you should be good to explore the application, post img, write comment, etc.</br>
 Helpful images/gifs/video are posted below:</br>
 </br>
-Application front page preview:
-
-</br>
-![AppPreview](./public/ReadMe/app_preview.png)
 
 </br>
 </br>
