@@ -45,13 +45,10 @@ Simply click the deployed Heroku link (mentioned under Links section) to access 
 Helpful images/gifs/video are posted below:</br>
 </br>
 Application front page preview:
-<<<<<<< HEAD
+
 </br>
 ![AppPreview](./public/ReadMe/app_preview.png)
-=======
-</br> 
-![AppPreview](./public/images/readme/app_preview.png)
->>>>>>> 2dce696312a7f4d438b6f5ae1962fd6c5cd71832
+
 </br>
 </br>
 
