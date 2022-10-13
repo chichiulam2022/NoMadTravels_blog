@@ -47,7 +47,7 @@ Helpful images/gifs/video are posted below:</br>
 </br>
 Application front page preview:
 </br>
-![AppPreview](./public/images/readme/app_preview.png)
+![AppPreview](./public/ReadMe/app_preview.png)
 </br>
 </br>
 
@@ -59,10 +59,10 @@ The About Us page cards individually rotate to reveal the team members:
 
 Signup & login pages:
 </br>
-![SignUp](./public/images/readme/signup.png)
+![SignUp](./public/ReadMe/signup.png)
 </br>
 </br>
-![LogIn](./public/images/readme/login.png)
+![LogIn](./public/ReadMe/login.png)
 
 ## _Links_
 GitHub Repo URL: https://github.com/A-N26/Proj2-TravelBlogImgHosting-
