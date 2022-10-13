@@ -90,15 +90,15 @@ Deployed Heroku URL: http://www.example.com
 
 If you would like to know about the project, please feel free to contact:
 
-<details>
+
 
 <summary>Contact Me</summary>
 
-- [Mustapha taylor](https://github.com/mtaylo1), [Aashay Nagar](https://github.com/A-N26), [Chi Chiu Lam](https://github.com/chichiulam2022) & [Loo Wah Kong](https://github.com/andyloo416)
+- [Mustapha Taylor](https://github.com/mtaylo1), [Aashay Nagar](https://github.com/A-N26), [Chi Chiu Lam](https://github.com/chichiulam2022), [Loo Wah Kong](https://github.com/andyloo416)
 
-- [My e-mail](A-N26@github.com)
+- [My e-mail](lamcc90@gmail.com)
 
-</details>
+
 
 ### Contributing
 
