@@ -88,7 +88,7 @@ Deployed Heroku URL: http://www.example.com
 
 ###  Questions
 
-If you would like to ask Us anything (ama, err...aua!?...) about the project, please contact us on the info mentioned below:
+If you would like to know about the project, please feel free to contact:
 
 <details>
 
