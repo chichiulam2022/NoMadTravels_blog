@@ -3,7 +3,7 @@ const authenticate = require('../utils/auth')
 const multer = require('multer');
 const { storage } = require("../cloudinary")
 const upload = multer({ storage })
-const { Post, Comment } = require('../models');
+const { Post, User, Comment } = require('../models');
 
 
 //get all blog posts (/blog)
@@ -41,12 +41,30 @@ router.post('/newblog', authenticate, upload.single('image'), (req, res) => {
 router.get("/:id", authenticate, async (req, res) => {
     try {
         const dbPostData = await Post.findByPk(req.params.id, {
+            // include: [
+            //     {
+            //         model: Comment,
+            //         attributes: [
+            //             'comment_text'
+            //         ],
+            //         include: {
+            //             model: User,
+            //             attributes: ['username']
+            //         }
+            //     }
+            // ]
             include: [
                 {
+                    model: User,
+                    attributes: ['username']
+                },
+                {
                     model: Comment,
-                    attributes: [
-                        'comment_text'
-                    ]
+                    attributes: ['id', 'comment_text', 'post_id', 'user_id', 'createdAt'],
+                    include: {
+                        model: User,
+                        attributes: ['username']
+                    }
                 }
             ]
         })
