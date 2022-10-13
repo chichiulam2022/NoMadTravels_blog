@@ -45,6 +45,11 @@ Simply click the deployed Heroku link (mentioned under Links section) to access 
 Helpful images/gifs/video are posted below:</br>
 </br>
 </br>
+Application front page preview:
+</br>
+![AppPreview](./public/ReadMe/app_preview.png)
+</br>
+</br>
 
 The About Us page cards individually rotate to reveal the team members:
 </br>
