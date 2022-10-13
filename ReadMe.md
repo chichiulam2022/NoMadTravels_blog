@@ -77,9 +77,6 @@ Deployed Heroku URL: http://www.example.com
 - [Aashay NAGAR](https://github.com/A-N26)
 
 ###  License
-
-**(Please Click the BADGE for the license details.)**
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
 
 ###  Badges
