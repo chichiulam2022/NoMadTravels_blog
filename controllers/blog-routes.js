@@ -38,7 +38,7 @@ router.post('/newblog', authenticate, upload.single('image'), (req, res) => {
 })
 
 // show individual blog post (/blog/:id)
-router.get('/:id', (req, res) => {
+router.get('/:id', authenticate, (req, res) => {
     Post.findOne({
         where: {
             id: req.params.id
