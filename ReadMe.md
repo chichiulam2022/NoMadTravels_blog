@@ -1,5 +1,7 @@
 ## Project Name: NoMadTravels
 
+Deployed Heroku URL: https://nomadtravelblog.herokuapp.com/</br>
+
 
 ### Description
 
@@ -64,7 +66,7 @@ Signup & login pages:
 ### Links
 GitHub Repo URL: https://github.com/A-N26/Proj2-TravelBlogImgHosting-
 <br/>
-Deployed Heroku URL: http://www.example.com
+Deployed Heroku URL: https://nomadtravelblog.herokuapp.com/
 
 ###  Credits
 
