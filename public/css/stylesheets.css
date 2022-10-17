@@ -563,3 +563,33 @@ textarea {
 /* .blog-content-box {
     border: 2px solid red;
 } */
+
+@media (max-width: 1000px) {
+    #fp-nav ul li a span {
+        display: none;
+    }
+
+    .s1 h1,
+    .s3 h1 {
+        font-size: 2.3rem;
+    }
+
+    .s2 h1 {
+        font-size: 1.7rem;
+    }
+
+    .carousel-inner img {
+        width: 18rem;
+    }
+
+    .carousel-inner h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
